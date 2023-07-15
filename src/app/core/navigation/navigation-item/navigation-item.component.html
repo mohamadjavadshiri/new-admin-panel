@@ -1,0 +1,10 @@
+<div class="nav-row">
+  <div class="d-flex nav-item">
+    <div *ngIf="naveItem.icon" class="mx-16 nave-icon">
+      <mat-icon>{{ naveItem.icon }}</mat-icon>
+    </div>
+    <div [class.mx-12]="!naveItem.icon" class="d-f-c-c nave-title">
+      <span>{{ naveItem.title }}</span>
+    </div>
+  </div>
+</div>

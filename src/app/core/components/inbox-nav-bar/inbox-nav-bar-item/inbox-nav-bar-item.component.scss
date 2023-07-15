@@ -1,0 +1,44 @@
+.inbox-card {
+  width: 230px;
+  border: 1px solid #b9b9b9;
+  margin: auto;
+  background-color: var(--Surface);
+  border-radius: 24px;
+  padding: 12px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  position: relative;
+  color: var(--On-Surface);
+  .inbox-time {
+    position: absolute;
+    right: 8px;
+    top: 8px;
+  }
+
+  .inbox-header {
+    width: 32px;
+    padding: 4px;
+    background-color: var(--primary);
+    border-radius: 12px;
+    color: var(--on-primary);
+    height: 32px;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .inbox-title {
+  }
+
+  .inbox-description {
+  }
+
+  .inbox-arrow{
+    position: absolute;
+    right: 8px;
+    bottom: 4px;
+  }
+}

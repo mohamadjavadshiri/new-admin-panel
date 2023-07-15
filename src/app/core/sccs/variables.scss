@@ -1,0 +1,119 @@
+:root {
+  --primary: #6675ff;
+  --on-primary: #ffffff;
+  --Primary-Container: #e5e8ff;
+  --On-Primary-Container: #4a56be;
+
+  --Secondary: #f2a761;
+  --On-Secondary: #4d351f;
+  --Secondary-Container: #f2d9c2;
+  --On-Secondary-Container: #d98a41;
+
+  --Tertiary: #5ce5a3;
+  --On-Tertiary: #143324;
+  --Tertiary-Container: #daf2e7;
+  --On-Tertiary-Container: #52cc91;
+
+  --Error: #ff6666;
+  --On-Error: #331414;
+  --Error-Container: #ffe5e5;
+  --On-Error-Container: #be4e4e;
+
+  --Background: #ffffff;
+  --On-Background: #3e4151;
+
+  --Surface: #f6f6fb;
+  --On-Surface: #3e4151;
+
+  --Surface-Tint: #6675ff;
+
+  --Outline: #f2a761;
+  --Outline-Variant: #4d351f;
+
+  --Surface-Variant: #64687d;
+  --On-Surface-Variant: #ffffff;
+
+  --Scrim: #ffffff;
+  --Inverse-On-Surface: #f8f8f9;
+
+  --Inverse-Primary: #bbc2ff;
+  --Inverse-Surface: #3e4151;
+
+  --Logo-Color: #494c5f;
+  --Icon-Color: #424750;
+  --Nave-ITem-Color: #2e303d;
+  --Base-BackGround: #f5f6fb;
+  --side-bar-menu-border: #dddddd;
+  --top-nav-bar-shadow-color: black;
+  --favorit-back-color: #e9eaf3;
+  --user-info-back-color: #f0f0f1;
+  --user-info-border-color: #e0e0e2;
+  --side-menu-nav-hover-back-color: #e6e8e9;
+  --text-color: black;
+
+  --Black-Font: IRANYekan-Black;
+  --Bold-Font: IRANYekan-Bold;
+  --DemiBold-Font: IRANYekan-DemiBold;
+  --ExtraBlack-Font: IRANYekan-ExtraBlack;
+  --ExtraBold-Font: IRANYekan-ExtraBold;
+  --Heavy-Font: IRANYekan-Heavy;
+  --Light-Font: IRANYekan-Light;
+  --Medium-Font: IRANYekan-Medium;
+  --Thin-Font: IRANYekan-Thin;
+  --UltraLight-Font: IRANYekan-UltraLight;
+  --Regular-Font: IRANYekan-Regular;
+}
+
+.dark {
+  --primary: #8995ff;
+  --on-primary: #ffffff;
+  --Primary-Container: #6673ff;
+  --On-Primary-Container: #f4f1ff;
+
+  --Secondary: #f8c597;
+  --On-Secondary: #28221f;
+  --Secondary-Container: #f2a661;
+  --On-Secondary-Container: #fdedde;
+
+  --Tertiary: #b0f2d2;
+  --On-Tertiary: #182221;
+  --Tertiary-Container: #42cc8a;
+  --On-Tertiary-Container: #edfdf5;
+
+  --Error: #d47878;
+  --On-Error: #331414;
+  --Error-Container: #3d2529;
+  --On-Error-Container: #be4e4e;
+
+  --Background: #1b1c21;
+  --On-Background: #3e4151;
+
+  --Surface: #2c2d35;
+  --On-Surface: #e7eaf8;
+
+  --Surface-Tint: #6675ff;
+
+  --Outline: #404351;
+  --Outline-Variant: #515361;
+
+  --Surface-Variant: #606375;
+  --On-Surface-Variant: #ffffff;
+
+  --Scrim: #1b1c21;
+  --Inverse-On-Surface: #0b0b0c;
+
+  --Inverse-Primary: #cfd3fb;
+  --Inverse-Surface: #e9ebf4;
+
+  --Logo-Color: white;
+  --Icon-Color: white;
+  --Nave-ITem-Color: white;
+  --Base-BackGround: #2c2d35;
+  --side-bar-menu-border: gray;
+  --top-nav-bar-shadow-color: gray;
+  --favorit-back-color: #e9eaf3;
+  --side-menu-nav-hover-back-color: #404351;
+  --favorit-back-color: #404351;
+  --text-color: white;
+  --user-info-back-color:#2c2d35 ;
+}

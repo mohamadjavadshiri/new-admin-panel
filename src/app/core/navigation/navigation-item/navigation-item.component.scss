@@ -1,0 +1,24 @@
+.nav-item {
+  color: var(--Nave-ITem-Color);
+  padding-bottom: 12px;
+  padding-top: 12px;
+  min-height: 28px;
+  width: max-content;
+}
+
+.nave-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--Logo-Color);
+}
+
+
+.nav-row{
+  cursor: pointer;
+  z-index: 2;
+}
+
+.nav-row:hover{
+  background-color: var(--side-menu-nav-hover-back-color) ;
+}

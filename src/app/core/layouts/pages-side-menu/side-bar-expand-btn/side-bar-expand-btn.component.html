@@ -1,0 +1,11 @@
+<div (click)="onExpandBtnClick()" class="side-bar-contianer" *ngIf="!isExpanded">
+  <div class="side-bar-content">
+    <mat-icon>keyboard_arrow_right</mat-icon>
+  </div>
+</div>
+
+<div (click)="onExpandBtnClick()"  class="side-bar-contianer" *ngIf="isExpanded">
+  <div class="side-bar-content">
+    <mat-icon>keyboard_arrow_left</mat-icon>
+  </div>
+</div>

@@ -1,0 +1,33 @@
+<div
+  class="nav-row"
+  (mouseenter)="setIsOpenDropMenu(true)"
+  (mouseleave)="setIsOpenDropMenu(false)"
+>
+  <div class="d-flex nav-item ">
+    <div class="d-flex flex-1">
+      <div *ngIf="naveItem.icon" class="mx-16 nave-icon">
+        <mat-icon>{{ naveItem.icon }}</mat-icon>
+      </div>
+      <div  [class.mx-12]="!naveItem.icon" class="d-f-c-c nave-title">
+        <span>{{ naveItem.title }}</span>
+      </div>
+    </div>
+
+    <div class="naveItem-arrow" [class.showLittleArrowIcon]="isShowLittleArrowIcon">
+      <mat-icon>arrow_right</mat-icon>
+    </div>
+  </div>
+
+  <div class="menu-card hide" [class.show]="isOpen">
+    <div *ngFor="let item of naveItem.children">
+      <app-navigation-item
+        [naveItem]="item"
+        *ngIf="item.type == 'item'"
+      ></app-navigation-item>
+      <app-navigation-drop-down
+        [naveItem]="item"
+        *ngIf="item.type == 'dropdown'"
+      ></app-navigation-drop-down>
+    </div>
+  </div>
+</div>

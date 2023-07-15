@@ -1,0 +1,18 @@
+<div [class.message-open]="isMenuOpen" class="message-side-menu">
+  <div *ngIf="isShowContent" class="sub-menu-card">
+    <div class="close-menu" dir="rtl">
+      <mat-icon (click)="setIsMenuOpen(false)">close</mat-icon>
+    </div>
+    <div class="p-relative ">
+      <div class="tab-devider-row"></div>
+      <mat-tab-group  [selectedIndex]="selectedTab">
+        <mat-tab  class="pt-8" label="Messages">
+          <app-inbox-nav-bar ></app-inbox-nav-bar>
+        </mat-tab>
+        <mat-tab class="pt-8" label="Notifications">
+          <app-notification-nav-bar ></app-notification-nav-bar>
+        </mat-tab>
+      </mat-tab-group>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,33 @@
+.side-bar-menu-continer{
+    width: fit-content;
+}
+
+.side-bar-menu{
+    background-color: var(--Background);
+    width: 56px;
+    border: 1px solid var(--side-bar-menu-border);
+    overflow-x: hidden;
+    padding-top: 80px;
+    border-top-right-radius: 24px;
+    overflow-y: auto;
+    border-bottom-right-radius: 24px;
+    height: calc(100vh - 147px);
+    overflow-y: auto;
+    transition: width 0.3s, padding-top 0.3s , height 0.3s;
+    transition-timing-function: linear;
+    
+}
+
+
+.side-bar-menu-expanded{
+    width: 240px;
+    padding-top: 20px;
+    height: calc(100vh - 85px);
+}
+
+.change-dark-mode{
+    position: absolute;
+    bottom: 16px;
+    left: 50%;
+    transform: translate(-50%, 0px);
+}

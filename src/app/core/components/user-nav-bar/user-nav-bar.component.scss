@@ -1,0 +1,25 @@
+.user-nav-card{
+    position: absolute;
+    top: 47px;
+    z-index: 2;
+    right: 0px;
+    width: 120px;
+    background-color: var(--Background);
+    padding: 12px 16px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px gray;
+
+    .user-nav-row{
+        cursor: pointer;
+    }
+    
+    .user-info-icon{
+        margin-right: 8px;
+        color:#A1A3A8;
+    }
+    
+    .user-info-title{
+    
+    }
+}
+

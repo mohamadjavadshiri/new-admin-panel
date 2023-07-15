@@ -1,0 +1,11 @@
+<div *ngFor="let naveItem of navigaionItems">
+  <app-navigation-item
+    [naveItem]="naveItem"
+    *ngIf="naveItem.type == 'item'"
+  ></app-navigation-item>
+  <app-navigation-drop-down
+    [isFirstLevelMenu]="true"
+    [naveItem]="naveItem"
+    *ngIf="naveItem.type == 'dropdown'"
+  ></app-navigation-drop-down>
+</div>

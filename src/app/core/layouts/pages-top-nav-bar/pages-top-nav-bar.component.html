@@ -1,0 +1,60 @@
+<div class="tap-nav-bar-card">
+  <div class="top-nav-bar-row">
+    <div class="app-logo d-f-c-c">
+      <img src="./assets/app/logo.svg" />
+    </div>
+    <div class="app-text d-f-c-c">
+      <span>API Manager</span>
+    </div>
+
+    <div class="flex-1"></div>
+    <div class="d-f-c-c">
+      <div class="mx-8 p-relative cursor-pointer dropdown">
+        <span class="favorit-btn" (click)="setShowFavoritMenu(true)"
+          ><mat-icon class="top-nav-bar-icon favorit-btn-icon"
+            >bookmark_outline</mat-icon
+          ></span
+        >
+        <app-favorit-nav-bar
+          class="dropdown-content"
+          *ngIf="isShowFavoritMenu"
+        ></app-favorit-nav-bar>
+      </div>
+      <div class="mx-8">
+        <div
+          (click)="setShowMessageSidetMenu(1)"
+          class="p-relative cursor-pointer"
+        >
+          <div class="bage-icon">
+            <span>32</span>
+          </div>
+          <mat-icon class="top-nav-bar-icon">notifications_outline</mat-icon>
+        </div>
+      </div>
+      <div
+        (click)="setShowMessageSidetMenu(0)"
+        class="mx-8 cursor-pointer"
+      >
+        <mat-icon class="top-nav-bar-icon">mail_outline</mat-icon>
+      </div>
+      <div class="devider-column">
+
+      </div>
+      <div class="mx-8">
+        <span><mat-icon class="top-nav-bar-icon">search</mat-icon></span>
+      </div>
+      <div class="mx-8 mr-12">
+        <span class="top-nav-bar-icon">?</span>
+      </div>
+      <div class="user-Info-card user-info-btn p-relative" (click)="setShowUserMenu(true)">
+        <div class="user-info-avatar user-info-btn"><img class=" user-info-btn" src="../../../../assets/img/user-avatar.svg" /></div>
+        <div class="user-info-name user-info-btn"><span class=" user-info-btn"  >Kamand sl</span></div>
+        <div class="user-info-drop-arrow user-info-btn">
+          <mat-icon class="user-info-btn">arrow_drop_down</mat-icon>
+        </div>
+        <app-user-nav-bar *ngIf="isShowUserMenu" ></app-user-nav-bar>
+      </div>
+  
+    </div>
+  </div>
+</div>

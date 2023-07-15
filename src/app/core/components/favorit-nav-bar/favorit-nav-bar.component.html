@@ -1,0 +1,12 @@
+<div class="favorit-card">
+  <div class="Favorits-Title">
+    <span>Favorits</span>
+  </div>
+  <div class="d-flex fav-container">
+    <div *ngFor="let favoritItem of favoritItemList">
+      <app-favorit-nav-bar-item
+        [favoritItem]="favoritItem"
+      ></app-favorit-nav-bar-item>
+    </div>
+  </div>
+</div>

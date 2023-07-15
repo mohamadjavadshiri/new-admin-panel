@@ -1,0 +1,30 @@
+.favorit-card{
+    cursor: pointer;
+    padding: 8px 12px;
+    width: 54px;
+    height: 54px;
+    border: 1px solid var(--primary);
+    border-radius: 4px;
+    color: var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 4px;
+    margin-right: 4px;
+    background-color: var(--favorit-back-color);
+    .favorit-icon{
+
+    }
+    .favorit-title{
+        
+    }
+    .favorit-add-icon{
+        display: flex;
+        mat-icon{
+            font-size: 32px;
+            width: 32px;
+            height: 32px;
+        }
+    }
+}

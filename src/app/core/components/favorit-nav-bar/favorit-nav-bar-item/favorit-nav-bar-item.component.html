@@ -1,0 +1,14 @@
+<div class="favorit-card" *ngIf="favoritItem.id">
+  <div class="favorit-icon">
+    <mat-icon>{{ favoritItem.title }}</mat-icon>
+  </div>
+  <div class="favorit-title">
+    <span>{{ favoritItem.title }}</span>
+  </div>
+</div>
+
+<div class="favorit-card" *ngIf="!favoritItem.id">
+  <div class="favorit-icon favorit-add-icon ">
+    <mat-icon>add</mat-icon>
+  </div>
+</div>

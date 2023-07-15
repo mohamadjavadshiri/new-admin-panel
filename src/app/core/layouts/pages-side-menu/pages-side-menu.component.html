@@ -1,0 +1,12 @@
+<div class="p-relative side-bar-menu-continer">
+  <mat-slide-toggle class="change-dark-mode" (change)="toggleDarkMode()"></mat-slide-toggle>
+  <app-side-bar-expand-btn
+    [isExpanded]="isExpanded"
+    (onExpanToggle)="onExpanToggle($event)"
+  ></app-side-bar-expand-btn>
+  <div [class.side-bar-menu-expanded]="isExpanded" class="side-bar-menu">
+    <app-navigation></app-navigation>
+  </div>
+
+  
+</div>

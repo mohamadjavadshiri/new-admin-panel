@@ -1,0 +1,86 @@
+.tap-nav-bar-card {
+  height: 64px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid gray;
+  box-shadow: 0px 0px 2px var(--top-nav-bar-shadow-color);
+  background-color: var(--Background);
+  .top-nav-bar-row {
+    width: 100%;
+    display: flex;
+
+    .app-logo {
+      height: 40px;
+      width: 40px;
+      padding: 8px;
+      margin-inline-start: 24px;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .app-text {
+      color: var(--Logo-Color);
+      font-family: var(--DemiBold-Font);
+    }
+
+    .top-nav-bar-icon {
+      color: var(--Icon-Color);
+      font-size: 24px;
+    }
+  }
+}
+
+.bage-icon {
+  color: var(--On-Error);
+  background-color: var(--Error);
+  border-radius: 50%;
+  font-family: var(--Medium-Font);
+  padding: 1px;
+  font-size: 11px;
+  text-align: center;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  right: -7px;
+  top: -2px;
+}
+
+.user-Info-card {
+  display: flex;
+  background-color: var(--user-info-back-color);
+  border: 1px solid var(--user-info-border-color);
+  border-radius: 34px;
+  padding: 4px 8px;
+  margin-right: 24px;
+  margin-bottom: 4px;
+  width: 130px;
+  cursor: pointer;
+  .user-info-avatar {
+    height: 30px;
+    width: 30px;
+    margin-right: 8px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .user-info-name {
+    display: flex;
+    align-items: center;
+    flex: 1;
+  }
+
+  .user-info-drop-arrow {
+  }
+}
+
+
+.devider-column{
+  height: 28px;
+  width: 1px;
+  margin-bottom: 2px;
+  background: var(--side-bar-menu-border);
+}
